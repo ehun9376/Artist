@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class MyAccountViewController: UIViewController {
+class MyAccountViewController: BaseViewController {
     
     
     override func viewDidLoad() {

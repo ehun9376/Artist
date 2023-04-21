@@ -31,6 +31,22 @@
 		36009C9B29F1231300FBF1D9 /* MyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36009C9A29F1231300FBF1D9 /* MyAccountViewController.swift */; };
 		36009C9D29F1275B00FBF1D9 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36009C9C29F1275B00FBF1D9 /* LaunchViewController.swift */; };
 		36009C9F29F1279600FBF1D9 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36009C9E29F1279600FBF1D9 /* ActionButton.swift */; };
+		36009CA429F22F0400FBF1D9 /* SwiftRichString in Frameworks */ = {isa = PBXBuildFile; productRef = 36009CA329F22F0400FBF1D9 /* SwiftRichString */; };
+		36009CB729F2353100FBF1D9 /* AdventPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36009CB029F2353100FBF1D9 /* AdventPro-Medium.ttf */; };
+		36009CB829F2353100FBF1D9 /* AdventPro-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36009CB129F2353100FBF1D9 /* AdventPro-Thin.ttf */; };
+		36009CB929F2353100FBF1D9 /* AdventPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36009CB229F2353100FBF1D9 /* AdventPro-SemiBold.ttf */; };
+		36009CBA29F2353100FBF1D9 /* AdventPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36009CB329F2353100FBF1D9 /* AdventPro-Regular.ttf */; };
+		36009CBB29F2353100FBF1D9 /* AdventPro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36009CB429F2353100FBF1D9 /* AdventPro-ExtraLight.ttf */; };
+		36009CBC29F2353100FBF1D9 /* AdventPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36009CB529F2353100FBF1D9 /* AdventPro-Light.ttf */; };
+		36009CBD29F2353100FBF1D9 /* AdventPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36009CB629F2353100FBF1D9 /* AdventPro-Bold.ttf */; };
+		36009CC129F23AD400FBF1D9 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36009CC029F23AD400FBF1D9 /* HomeViewModel.swift */; };
+		36009CC429F23DCF00FBF1D9 /* TitleSubTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36009CC329F23DCF00FBF1D9 /* TitleSubTitleCell.swift */; };
+		36009CC629F23E6400FBF1D9 /* TitleSubTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36009CC529F23E6400FBF1D9 /* TitleSubTitleCell.xib */; };
+		36009CC929F2607700FBF1D9 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36009CC829F2607700FBF1D9 /* Inter-Bold.ttf */; };
+		36009CCB29F26A9300FBF1D9 /* TitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36009CCA29F26A9300FBF1D9 /* TitleCell.swift */; };
+		36009CCD29F26BBB00FBF1D9 /* TitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36009CCC29F26BBB00FBF1D9 /* TitleCell.xib */; };
+		36009CCF29F26E9800FBF1D9 /* StackScrollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36009CCE29F26E9800FBF1D9 /* StackScrollCell.swift */; };
+		36009CD129F26E9F00FBF1D9 /* StackScrollCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36009CD029F26E9F00FBF1D9 /* StackScrollCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +95,22 @@
 		36009C9A29F1231300FBF1D9 /* MyAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountViewController.swift; sourceTree = "<group>"; };
 		36009C9C29F1275B00FBF1D9 /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		36009C9E29F1279600FBF1D9 /* ActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		36009CB029F2353100FBF1D9 /* AdventPro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdventPro-Medium.ttf"; sourceTree = "<group>"; };
+		36009CB129F2353100FBF1D9 /* AdventPro-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdventPro-Thin.ttf"; sourceTree = "<group>"; };
+		36009CB229F2353100FBF1D9 /* AdventPro-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdventPro-SemiBold.ttf"; sourceTree = "<group>"; };
+		36009CB329F2353100FBF1D9 /* AdventPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdventPro-Regular.ttf"; sourceTree = "<group>"; };
+		36009CB429F2353100FBF1D9 /* AdventPro-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdventPro-ExtraLight.ttf"; sourceTree = "<group>"; };
+		36009CB529F2353100FBF1D9 /* AdventPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdventPro-Light.ttf"; sourceTree = "<group>"; };
+		36009CB629F2353100FBF1D9 /* AdventPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdventPro-Bold.ttf"; sourceTree = "<group>"; };
+		36009CC029F23AD400FBF1D9 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		36009CC329F23DCF00FBF1D9 /* TitleSubTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSubTitleCell.swift; sourceTree = "<group>"; };
+		36009CC529F23E6400FBF1D9 /* TitleSubTitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleSubTitleCell.xib; sourceTree = "<group>"; };
+		36009CC729F241D600FBF1D9 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		36009CC829F2607700FBF1D9 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		36009CCA29F26A9300FBF1D9 /* TitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCell.swift; sourceTree = "<group>"; };
+		36009CCC29F26BBB00FBF1D9 /* TitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleCell.xib; sourceTree = "<group>"; };
+		36009CCE29F26E9800FBF1D9 /* StackScrollCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackScrollCell.swift; sourceTree = "<group>"; };
+		36009CD029F26E9F00FBF1D9 /* StackScrollCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StackScrollCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36009CA429F22F0400FBF1D9 /* SwiftRichString in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +171,7 @@
 				36009C5529F11E8600FBF1D9 /* Assets.xcassets */,
 				36009C5729F11E8700FBF1D9 /* LaunchScreen.storyboard */,
 				36009C5A29F11E8700FBF1D9 /* Info.plist */,
+				36009CBE29F2353B00FBF1D9 /* CustomFont */,
 			);
 			path = Artist;
 			sourceTree = "<group>";
@@ -180,12 +214,51 @@
 		36009C9329F122C200FBF1D9 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
-				36009C9429F122D000FBF1D9 /* HomeViewController.swift */,
+				36009CBF29F23ABA00FBF1D9 /* Home */,
 				36009C9629F122E400FBF1D9 /* FavoriteViewController.swift */,
 				36009C9829F1230200FBF1D9 /* MyRoomViewController.swift */,
 				36009C9A29F1231300FBF1D9 /* MyAccountViewController.swift */,
 			);
 			path = Pages;
+			sourceTree = "<group>";
+		};
+		36009CBE29F2353B00FBF1D9 /* CustomFont */ = {
+			isa = PBXGroup;
+			children = (
+				36009CC829F2607700FBF1D9 /* Inter-Bold.ttf */,
+				36009CC729F241D600FBF1D9 /* Inter-Regular.ttf */,
+				36009CB629F2353100FBF1D9 /* AdventPro-Bold.ttf */,
+				36009CB429F2353100FBF1D9 /* AdventPro-ExtraLight.ttf */,
+				36009CB529F2353100FBF1D9 /* AdventPro-Light.ttf */,
+				36009CB029F2353100FBF1D9 /* AdventPro-Medium.ttf */,
+				36009CB329F2353100FBF1D9 /* AdventPro-Regular.ttf */,
+				36009CB229F2353100FBF1D9 /* AdventPro-SemiBold.ttf */,
+				36009CB129F2353100FBF1D9 /* AdventPro-Thin.ttf */,
+			);
+			path = CustomFont;
+			sourceTree = "<group>";
+		};
+		36009CBF29F23ABA00FBF1D9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				36009C9429F122D000FBF1D9 /* HomeViewController.swift */,
+				36009CC029F23AD400FBF1D9 /* HomeViewModel.swift */,
+				36009CC229F23C6600FBF1D9 /* cell */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		36009CC229F23C6600FBF1D9 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				36009CCE29F26E9800FBF1D9 /* StackScrollCell.swift */,
+				36009CD029F26E9F00FBF1D9 /* StackScrollCell.xib */,
+				36009CCA29F26A9300FBF1D9 /* TitleCell.swift */,
+				36009CCC29F26BBB00FBF1D9 /* TitleCell.xib */,
+				36009CC329F23DCF00FBF1D9 /* TitleSubTitleCell.swift */,
+				36009CC529F23E6400FBF1D9 /* TitleSubTitleCell.xib */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +277,9 @@
 			dependencies = (
 			);
 			name = Artist;
+			packageProductDependencies = (
+				36009CA329F22F0400FBF1D9 /* SwiftRichString */,
+			);
 			productName = Artist;
 			productReference = 36009C4929F11E8500FBF1D9 /* Artist.app */;
 			productType = "com.apple.product-type.application";
@@ -276,6 +352,9 @@
 				Base,
 			);
 			mainGroup = 36009C4029F11E8500FBF1D9;
+			packageReferences = (
+				36009CA229F22F0300FBF1D9 /* XCRemoteSwiftPackageReference "SwiftRichString" */,
+			);
 			productRefGroup = 36009C4A29F11E8500FBF1D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -293,7 +372,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				36009C5929F11E8700FBF1D9 /* LaunchScreen.storyboard in Resources */,
+				36009CB829F2353100FBF1D9 /* AdventPro-Thin.ttf in Resources */,
+				36009CC929F2607700FBF1D9 /* Inter-Bold.ttf in Resources */,
+				36009CBD29F2353100FBF1D9 /* AdventPro-Bold.ttf in Resources */,
+				36009CD129F26E9F00FBF1D9 /* StackScrollCell.xib in Resources */,
+				36009CB729F2353100FBF1D9 /* AdventPro-Medium.ttf in Resources */,
+				36009CC629F23E6400FBF1D9 /* TitleSubTitleCell.xib in Resources */,
+				36009CBB29F2353100FBF1D9 /* AdventPro-ExtraLight.ttf in Resources */,
 				36009C5629F11E8600FBF1D9 /* Assets.xcassets in Resources */,
+				36009CCD29F26BBB00FBF1D9 /* TitleCell.xib in Resources */,
+				36009CB929F2353100FBF1D9 /* AdventPro-SemiBold.ttf in Resources */,
+				36009CBA29F2353100FBF1D9 /* AdventPro-Regular.ttf in Resources */,
+				36009CBC29F2353100FBF1D9 /* AdventPro-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,8 +411,10 @@
 				36009C8929F1207A00FBF1D9 /* KeyboardHelper.swift in Sources */,
 				36009C8A29F1207A00FBF1D9 /* CollectionViewAdapter.swift in Sources */,
 				36009C5129F11E8500FBF1D9 /* HomePageViewController.swift in Sources */,
+				36009CC129F23AD400FBF1D9 /* HomeViewModel.swift in Sources */,
 				36009C8B29F1207A00FBF1D9 /* UserInfoCenter.swift in Sources */,
 				36009C9729F122E400FBF1D9 /* FavoriteViewController.swift in Sources */,
+				36009CCB29F26A9300FBF1D9 /* TitleCell.swift in Sources */,
 				36009C4D29F11E8500FBF1D9 /* AppDelegate.swift in Sources */,
 				36009C9529F122D000FBF1D9 /* HomeViewController.swift in Sources */,
 				36009C9D29F1275B00FBF1D9 /* LaunchViewController.swift in Sources */,
@@ -335,6 +427,8 @@
 				36009C8E29F1207A00FBF1D9 /* DeviceType.swift in Sources */,
 				36009C9129F1207A00FBF1D9 /* JBJson.swift in Sources */,
 				36009C8729F1207A00FBF1D9 /* Extension.swift in Sources */,
+				36009CCF29F26E9800FBF1D9 /* StackScrollCell.swift in Sources */,
+				36009CC429F23DCF00FBF1D9 /* TitleSubTitleCell.swift in Sources */,
 				36009C9B29F1231300FBF1D9 /* MyAccountViewController.swift in Sources */,
 				36009C8D29F1207A00FBF1D9 /* CellProtocol.swift in Sources */,
 			);
@@ -676,6 +770,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		36009CA229F22F0300FBF1D9 /* XCRemoteSwiftPackageReference "SwiftRichString" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftRichString.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		36009CA329F22F0400FBF1D9 /* SwiftRichString */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 36009CA229F22F0300FBF1D9 /* XCRemoteSwiftPackageReference "SwiftRichString" */;
+			productName = SwiftRichString;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 36009C4129F11E8500FBF1D9 /* Project object */;
 }

@@ -7,7 +7,7 @@
 
 import Foundation
 import UIKit
-class MyRoomViewController: UIViewController {
+class MyRoomViewController: BaseViewController {
     
     
     override func viewDidLoad() {

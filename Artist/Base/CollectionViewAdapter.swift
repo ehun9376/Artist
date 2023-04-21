@@ -31,7 +31,9 @@ class CollectionViewAdapter: NSObject {
         
         self.itemModels = itemModels
         
-        self.collectionView?.reloadData()
+        DispatchQueue.main.async {
+            self.collectionView?.reloadData()
+        }
     }
     
     func insertItemAtLast(itemModels: [CollectionItemModel]) {
@@ -93,7 +95,7 @@ extension CollectionViewAdapter: UICollectionViewDelegateFlowLayout {
     }
 }
 
-extension CollectionViewAdapter:UICollectionViewDelegate {
+extension CollectionViewAdapter: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
         guard let itemModel = self.itemModels?[indexPath.item] else { return }

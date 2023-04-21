@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftRichString
 
 class HomePageViewController: UIPageViewController {
     
@@ -15,7 +16,7 @@ class HomePageViewController: UIPageViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         self.viewControllerList = [
             HomeViewController(),
             FavoriteViewController(),
@@ -25,9 +26,10 @@ class HomePageViewController: UIPageViewController {
         
         
         self.setPage(index: 0)
-
+        
+        
     }
-
+    
     
     public func setPage(index: Int) {
         if let vc = self.viewControllerList[safe: index] {
@@ -36,4 +38,5 @@ class HomePageViewController: UIPageViewController {
         }
     }
 
+    
 }

@@ -83,6 +83,24 @@ public extension Array {
     }
 }
 
+extension UIFont {
+    static func adventProRegular(size: CGFloat) -> UIFont {
+        return .init(name: "AdventPro-Regular", size: size) ?? .systemFont(ofSize: size)
+    }
+    
+    static func interRegular(size: CGFloat) -> UIFont {
+        return .init(name: "Inter-Regular", size: size) ?? .systemFont(ofSize: size)
+    }
+    
+    static func interBold(size: CGFloat) -> UIFont {
+        return .init(name: "Inter-Bold", size: size) ?? .systemFont(ofSize: size)
+    }
+    
+    
+    
+    
+}
+
 extension UIView {
     
     public func drawSingleSideBoder(top: Bool = false, bottom: Bool = false, left: Bool = false, right: Bool = false, width: CGFloat, borderColor: UIColor){

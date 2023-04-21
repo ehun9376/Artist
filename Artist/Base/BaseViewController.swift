@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import SwiftRichString
 
 open class BaseViewController: UIViewController {
     
@@ -26,7 +27,7 @@ open class BaseViewController: UIViewController {
     
     override open func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.defaultNavigationSet()
+//        self.defaultNavigationSet()
         KeyboardHelper.shared.registFor(viewController: self)
     }
     
@@ -127,18 +128,17 @@ open class BaseViewController: UIViewController {
             }
         }
     }
+
     
-    private func defaultNavigationSet() {
-        let appearance = UINavigationBarAppearance()
-        appearance.titleTextAttributes = [
-            NSAttributedString.Key.foregroundColor : UIColor.white
-        ]
-        appearance.configureWithTransparentBackground()
-        appearance.backgroundColor = .init(hex: "3472D9")
-        UINavigationBar.appearance().tintColor = .white
-        self.navigationController?.navigationBar.standardAppearance = appearance
-        self.navigationController?.navigationBar.scrollEdgeAppearance = appearance
-       
+    func attributedStrings(strs: [String], colors: [UIColor]) -> NSAttributedString{
+        let attriibute = NSMutableAttributedString(string: strs[0])
+        for i in 0...strs.count - 1 {
+            let range = (strs[0] as NSString).range(of: strs[i])
+            attriibute.addAttributes([NSAttributedString.Key.foregroundColor : colors[i]], range: range)
+        }
+        return attriibute
     }
+    
+
  
 }

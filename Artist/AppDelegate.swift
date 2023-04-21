@@ -17,14 +17,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         application.registerForRemoteNotifications()
         
         self.window = UIWindow(frame: UIScreen.main.bounds)
-        self.window?.rootViewController = RootViewController()
+        self.window?.rootViewController = UINavigationController(rootViewController: RootViewController()) 
         self.window?.makeKeyAndVisible()
         
         return true
     }
+    
 
 
 
 
+
+}
+
+extension UIApplication {
+    func rootViewController() -> UIViewController? {
+        if let vc = UIApplication.shared.windows.first?.rootViewController {
+            return vc
+        } else {
+            return nil
+        }
+    }
 }
 
