@@ -32,6 +32,7 @@ class TitleCell: UICollectionViewCell {
     override func awakeFromNib() {
         self.titleLabel.font = .interBold(size: 18)
         self.titleLabel.textColor = .init(hex: "494949")
+        
     }
 }
 

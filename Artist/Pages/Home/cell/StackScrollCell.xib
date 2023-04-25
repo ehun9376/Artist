@@ -16,24 +16,8 @@
             <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="htd-Ya-5YI">
                 <rect key="frame" x="0.0" y="0.0" width="661" height="340"/>
                 <autoresizingMask key="autoresizingMask"/>
-                <subviews>
-                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cNf-ca-s4J">
-                        <rect key="frame" x="30" y="10" width="601" height="300"/>
-                        <viewLayoutGuide key="contentLayoutGuide" id="9Np-8W-dUM"/>
-                        <viewLayoutGuide key="frameLayoutGuide" id="mdH-Us-S0X"/>
-                    </scrollView>
-                </subviews>
-                <constraints>
-                    <constraint firstItem="cNf-ca-s4J" firstAttribute="leading" secondItem="htd-Ya-5YI" secondAttribute="leading" constant="30" id="3lZ-ej-jiu"/>
-                    <constraint firstItem="cNf-ca-s4J" firstAttribute="top" secondItem="htd-Ya-5YI" secondAttribute="top" constant="10" id="Snk-AF-KYD"/>
-                    <constraint firstAttribute="trailing" secondItem="cNf-ca-s4J" secondAttribute="trailing" constant="30" id="dk5-Eg-YQ4"/>
-                    <constraint firstAttribute="bottom" secondItem="cNf-ca-s4J" secondAttribute="bottom" constant="30" id="zAo-5N-5OE"/>
-                </constraints>
             </collectionViewCellContentView>
             <size key="customSize" width="661" height="340"/>
-            <connections>
-                <outlet property="scrollView" destination="cNf-ca-s4J" id="By7-w4-hKR"/>
-            </connections>
             <point key="canvasLocation" x="422.13740458015263" y="145.07042253521126"/>
         </collectionViewCell>
     </objects>

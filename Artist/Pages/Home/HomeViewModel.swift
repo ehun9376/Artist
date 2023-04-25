@@ -18,6 +18,8 @@ class HomeViewModel: NSObject {
     
     var adapter: CollectionViewAdapter?
     
+    var selectedType: [TagType] = []
+    
     init(delegate: HomeViewMethod? = nil, adapter: CollectionViewAdapter?) {
         self.delegate = delegate
         self.adapter = adapter
@@ -54,17 +56,28 @@ class HomeViewModel: NSObject {
         
         itemModels.append(selectItem)
         
-        let buttonsItem = StackScrollCellItemModel(buttonTagTypes: [.artist, .africaArtist, .artWork, .chineseArtist, .europeArtist, .femaleArtist, .africaArtist],
-                                                   buttonAction: { _ in
-            
+        let buttonsItem = StackScrollCellItemModel(buttonTagTypes: [.artist, .africaArtist, .artWork, .chineseArtist, .europeArtist, .femaleArtist],
+                                                   selectedTagTypes: self.selectedType,
+                                                   buttonAction: { type in
+            if self.selectedType.contains(type) {
+                self.selectedType = self.selectedType.filter({$0 != type})
+            } else {
+                self.selectedType.append(type)
+            }
+            self.setupRow()
         },
-                                                   itemSize: .init(width: UIScreen.main.bounds.width, height: 30),
-                                                   itemDidSelectAction: { _ in
-            
-        })
+                                                   itemSize: .init(width: UIScreen.main.bounds.width, height: 50),
+                                                   itemDidSelectAction: nil)
+        
 
         
         itemModels.append(buttonsItem)
+        
+        itemModels.append(itemModel)
+        itemModels.append(itemModel)
+        itemModels.append(itemModel)
+        itemModels.append(itemModel)
+        itemModels.append(itemModel)
         
         self.adapter?.updateData(itemModels: itemModels)
     }

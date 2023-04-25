@@ -47,6 +47,8 @@
 		36009CCD29F26BBB00FBF1D9 /* TitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36009CCC29F26BBB00FBF1D9 /* TitleCell.xib */; };
 		36009CCF29F26E9800FBF1D9 /* StackScrollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36009CCE29F26E9800FBF1D9 /* StackScrollCell.swift */; };
 		36009CD129F26E9F00FBF1D9 /* StackScrollCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36009CD029F26E9F00FBF1D9 /* StackScrollCell.xib */; };
+		36009CD429F7603400FBF1D9 /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36009CD329F7603400FBF1D9 /* FavoriteViewModel.swift */; };
+		36009CD729F76A8200FBF1D9 /* TopStackScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36009CD629F76A8200FBF1D9 /* TopStackScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +113,8 @@
 		36009CCC29F26BBB00FBF1D9 /* TitleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleCell.xib; sourceTree = "<group>"; };
 		36009CCE29F26E9800FBF1D9 /* StackScrollCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackScrollCell.swift; sourceTree = "<group>"; };
 		36009CD029F26E9F00FBF1D9 /* StackScrollCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StackScrollCell.xib; sourceTree = "<group>"; };
+		36009CD329F7603400FBF1D9 /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
+		36009CD629F76A8200FBF1D9 /* TopStackScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopStackScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,7 +219,7 @@
 			isa = PBXGroup;
 			children = (
 				36009CBF29F23ABA00FBF1D9 /* Home */,
-				36009C9629F122E400FBF1D9 /* FavoriteViewController.swift */,
+				36009CD229F75FFE00FBF1D9 /* Favorite */,
 				36009C9829F1230200FBF1D9 /* MyRoomViewController.swift */,
 				36009C9A29F1231300FBF1D9 /* MyAccountViewController.swift */,
 			);
@@ -259,6 +263,24 @@
 				36009CC529F23E6400FBF1D9 /* TitleSubTitleCell.xib */,
 			);
 			path = cell;
+			sourceTree = "<group>";
+		};
+		36009CD229F75FFE00FBF1D9 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				36009C9629F122E400FBF1D9 /* FavoriteViewController.swift */,
+				36009CD329F7603400FBF1D9 /* FavoriteViewModel.swift */,
+				36009CD529F76A7500FBF1D9 /* View */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		36009CD529F76A7500FBF1D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				36009CD629F76A8200FBF1D9 /* TopStackScrollView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -414,6 +436,7 @@
 				36009CC129F23AD400FBF1D9 /* HomeViewModel.swift in Sources */,
 				36009C8B29F1207A00FBF1D9 /* UserInfoCenter.swift in Sources */,
 				36009C9729F122E400FBF1D9 /* FavoriteViewController.swift in Sources */,
+				36009CD429F7603400FBF1D9 /* FavoriteViewModel.swift in Sources */,
 				36009CCB29F26A9300FBF1D9 /* TitleCell.swift in Sources */,
 				36009C4D29F11E8500FBF1D9 /* AppDelegate.swift in Sources */,
 				36009C9529F122D000FBF1D9 /* HomeViewController.swift in Sources */,
@@ -431,6 +454,7 @@
 				36009CC429F23DCF00FBF1D9 /* TitleSubTitleCell.swift in Sources */,
 				36009C9B29F1231300FBF1D9 /* MyAccountViewController.swift in Sources */,
 				36009C8D29F1207A00FBF1D9 /* CellProtocol.swift in Sources */,
+				36009CD729F76A8200FBF1D9 /* TopStackScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

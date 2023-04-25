@@ -75,6 +75,7 @@
             </collectionViewCellContentView>
             <size key="customSize" width="558" height="447"/>
             <connections>
+                <outlet property="aspect" destination="SwV-bj-K09" id="MeT-y5-heV"/>
                 <outlet property="backView" destination="KOc-x4-2dS" id="OJY-pf-9oK"/>
                 <outlet property="favoriteButton" destination="TF5-ZY-AeO" id="4jK-rc-o1P"/>
                 <outlet property="rightImageView" destination="oo4-Sd-DA8" id="Ptc-qH-hKb"/>
